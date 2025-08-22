@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SideHustle Naija</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ffcc00;
+      color: black;
+      padding: 1rem 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+    }
+    header nav {
+      display: flex;
+      gap: 1rem;
+    }
+    header nav a {
+      color: black;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .cta {
+      background-color: #007bff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin: 2rem 0;
+    }
+    .testimonials blockquote {
+      background: #fff;
+      border-left: 5px solid #007bff;
+      margin: 1rem 0;
+      padding: 1rem;
+      font-style: italic;
+    }
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .pricing-table th,
+    .pricing-table td {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      text-align: center;
+    }
+    .pricing-table th {
+      background-color: #007bff;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #eee;
+    }
+    /* FAQ */
+    .faq {
+      margin: 2rem 0;
+    }
+    .faq h2 {
+      margin-bottom: 1rem;
+    }
+    .faq-item {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+    .faq-item h3 {
+      margin: 0;
+      cursor: pointer;
+    }
+    .faq-item p {
+      display: none;
+      margin-top: 0.5rem;
+    }
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 1000;
+    }
+    .whatsapp-float i {
+      margin-top: 16px;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header nav {
+        flex-direction: column;
+        width: 100%;
+      }
+      .pricing-table, .pricing-table th, .pricing-table td {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="sidehustle9ja_logo_transparent.png" alt="SideHustle Naija Logo">
+    <nav>
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#learn">Learn</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="problem">
+      <h2>The Problem</h2>
+      <p>You’ve applied for jobs. You’ve tried small businesses. You’ve prayed. You’ve fasted. But nothing seems to work...</p>
+    </section>
+
+    <section id="solution">
+      <h2>The Solution: SideHustle Naija</h2>
+      <p>We created SideHustle Naija to teach ordinary Nigerians how to earn online, starting from zero experience.</p>
+    </section>
+
+    <section id="learn">
+      <h2>What You'll Learn</h2>
+      <ul>
+        <li>Freelancing – Offer skills on Fiverr, Upwork</li>
+        <li>Affiliate Marketing – Promote & earn commissions</li>
+        <li>Digital Products – Sell ebooks, templates</li>
+        <li>Mobile Hustles – Earn using just your phone</li>
+        <li>Remote Jobs – Apply for legit foreign jobs</li>
+      </ul>
+      <button class="cta" onclick="window.location.href='https://wa.me/2348012345678'">Get Started Now – It's Free!</button>
+    </section>
+
+    <section class="testimonials">
+      <h2>Real People. Real Results.</h2>
+      <blockquote>“I made my first $50 on Fiverr after 2 weeks of joining. This course changed my life!” – Peace O., Lagos</blockquote>
+      <blockquote>“I started affiliate marketing using my WhatsApp and earned ₦28k in 10 days!” – Ugo, Enugu</blockquote>
+      <blockquote>“I didn’t even have a laptop. I created my first ebook and sold 19 copies from my phone.” – Abdul, Kaduna</blockquote>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Price</th>
+            <th>What's Included</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Starter</td>
+            <td>₦0</td>
+            <td>1 Module, community access</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>₦15,000</td>
+            <td>All modules + templates + expert sessions</td>
+          </tr>
+          <tr>
+            <td>Partner</td>
+            <td>Earn 20%</td>
+            <td>Share & earn via our Affiliate Program</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="cta" onclick="window.location.href='https://wa.me/2348012345678'">Join Premium</button>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Do I need a laptop?</h3>
+        <p>No, you can get started with just your smartphone.</p>
+      </div>
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Is this free?</h3>
+        <p>We have a free Starter Plan, and a Premium Plan with extra resources.</p>
+      </div>
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">How do I get support?</h3>
+        <p>You can reach us anytime on WhatsApp or inside the community group.</p>
+      </div>
+    </section>
+  </div>
+
+  <a href="https://wa.me/2348012345678" class="whatsapp-float" target="_blank">
+    <i>💬</i>
+  </a>
+
+  <footer>
+    &copy; 2025 SideHustle Naija. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleFAQ(element) {
+      const p = element.nextElementSibling;
+      p.style.display = p.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
